@@ -1,0 +1,5 @@
+t = (1, 2, 3, 4, 1, 7, 1, 7 , 1 , 1 ,8)
+print("returns the number of occurences of value")
+print(t.count(1))
+print("returns the frist index of value")
+print(t.index(4))

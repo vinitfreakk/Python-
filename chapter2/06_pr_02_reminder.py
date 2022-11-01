@@ -1,0 +1,5 @@
+a = input("Enter the frist digit to be divied:")
+a = int(a)
+b = input("Enter the Second digit to be divied:")
+b = int(b)
+print("The reminder between the digits a and b is:",a%b)

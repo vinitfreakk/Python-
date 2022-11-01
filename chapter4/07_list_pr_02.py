@@ -1,0 +1,17 @@
+#sort the program when users give input
+s1 = input("Enter the Marks Of 1st Student:- ")
+s2 = input("Enter the Marks Of 2st Student:- ")
+s3 = input("Enter the Marks Of 3st Student:- ")
+s4 = input("Enter the Marks Of 4st Student:- ")
+s5 = input("Enter the Marks Of 5st Student:- ")
+s6 = input("Enter the Marks Of 6st Student:- ")
+s1 = int(s1)
+print(type(s1))
+s2 = int(s2)
+s3 = int(s3)
+s4 = int(s4)
+s5 = int(s5)
+s6 = int(s6)
+l1 = [s1,s2,s3,s4,s5,s6]
+l1.sort()
+print("This is th esorted list of marks of students ",l1)
